@@ -32,17 +32,17 @@
 // Console.WriteLine("Введите число 3 ");
 // int number_3 = Convert.ToInt32(Console.ReadLine());
 
-// if(number_1 > number_2)
+// if(number_1 < number_2)
 // {   
-//     Console.Write("число " + number_1 + " является максимальным числом");
-// }
-// else if(number_2 > number_1)
-// {
 //     Console.Write("число " + number_2 + " является максимальным числом");
+// }
+// else if(number_1 < number_3)
+// {
+//     Console.Write("число " + number_3 + " является максимальным числом");
 // }
 // else
 // {
-//     Console.Write("число " + number_3 + " является максимальным числом");
+//     Console.Write("число " + number_1 + " является максимальным числом");
 // }
 
 
