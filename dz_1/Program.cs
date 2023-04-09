@@ -70,18 +70,18 @@
 Console.WriteLine("Введите число ");
 int number = Convert.ToInt32(Console.ReadLine());
 int count = 1;
-int result = 0;
 
-while(count < number-1)
+while(count < number)
 {
-        if(number % 2 == 0)
+    if(number % 2 == 0)
             {
-                result = result + 2;
-                Console.WriteLine(result);
+                count = count + 1;
+                Console.WriteLine(count);
             }
-        else
-             {
-                Console.WriteLine("не является четным числом");
+    if (number % 2 != 0)
+            {
+                count = count + 1;
+                Console.WriteLine(count);
             }
-    count = count + 1;
+count = count + 1;
 }
