@@ -38,16 +38,16 @@
 // 782 -> 72
 // 918 -> 98
 
-// int num = new Random().Next(100, 1000);
-// Console.WriteLine(num);
+int num = new Random().Next(100, 1000);
+Console.WriteLine(num);
 
 // int a = num / 100;
 // int b = num % 10;
-// int c = (num % 100) / 10;
+int c = (num % 100) / 10;
 
 // Console.WriteLine("Итоговое число " + a + b);
 // Console.WriteLine($"Итоговое число {a}{b}");
-// Console.WriteLine($"Итоговое число {c}");
+Console.WriteLine($"Итоговое число {c}");
 
 // Напишите программу, которая будет принимать на вход два числа и выводить, является ли второе число кратным первому. Если число 2 не кратно числу 1, то программа выводит остаток от деления.
 
@@ -109,22 +109,22 @@
 // 25, 5  ->  да
 // 8,9  ->  нет
 
-Console.WriteLine("Введите 1 число");
-int num1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите 2 число");
-int num2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите 1 число");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите 2 число");
+// int num2 = Convert.ToInt32(Console.ReadLine());
 
-if(num2 == num1*num1)
-{
-    Console.WriteLine("Число 2 является квадратом числа 1");
-}
-else if(num1 == num2*num2)
-{
-    Console.WriteLine("Число 1 является квадратом числа 2");
-}
-else
-{
-    Console.WriteLine("Числа не совместимы");
-}
+// if(num2 == num1*num1)
+// {
+//     Console.WriteLine("Число 2 является квадратом числа 1");
+// }
+// else if(num1 == num2*num2)
+// {
+//     Console.WriteLine("Число 1 является квадратом числа 2");
+// }
+// else
+// {
+//     Console.WriteLine("Числа не совместимы");
+// }
 
 // double i = Math.Pow(a,2); фун-ия позволяющая возводить в степень Math (в этой ф-ии есть и другие пар-мы )
