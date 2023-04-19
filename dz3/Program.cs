@@ -4,26 +4,25 @@
 // 12821 -> да
 // 23432 -> да
 
-Console.WriteLine("Введите любое число: ");
-string? number = Console.ReadLine();
+// Console.WriteLine("Введите любое число: ");
+// string? number = Console.ReadLine();
 
-if(number.Length == 5)
-{
+// if(number.Length == 5)
+// {
     
-    if(number[0]==number[4] && number[1]== number[3])
-    {
-        Console.WriteLine("Число является палиндромом ");
-    }
-
-    else
-    {
-        Console.WriteLine("Число не является палиндромом ");
-    }
-}
-else
-{
-    Console.WriteLine("Введите правильное число: ");
-}
+//     if(number[0]==number[4] && number[1]== number[3])
+//     {
+//         Console.WriteLine("Число является палиндромом ");
+//     }
+//     else
+//     {
+//         Console.WriteLine("Число не является палиндромом ");
+//     }
+// }
+// else
+// {
+//     Console.WriteLine("Введите правильное число: ");
+// }
 
 
 /// Задача 21
@@ -31,32 +30,32 @@ else
 // A (3,6,8); B (2,1,-7), -> 15.84
 // A (7,-5, 0); B (1,-1,9) -> 11.53
 
-Console.WriteLine("Введите число ");
- int X1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите число ");
- int X2 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите число ");
- int X3 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите число ");
+//  int X1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите число ");
+//  int X2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите число ");
+//  int X3 = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Введите число ");
- int Y1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите число ");
- int Y2 = Convert.ToInt32(Console.ReadLine());
- Console.WriteLine("Введите число ");
- int Y3 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите число ");
+//  int Y1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите число ");
+//  int Y2 = Convert.ToInt32(Console.ReadLine());
+//  Console.WriteLine("Введите число ");
+//  int Y3 = Convert.ToInt32(Console.ReadLine());
 
-double d=Math.Sqrt(Math.Pow((X3-X2-X1),2)+Math.Pow((Y3-Y2-Y1),2));
-Console.WriteLine(d);
+// double d=Math.Sqrt(Math.Pow((X3-X2-X1),2)+Math.Pow((Y3-Y2-Y1),2));
+// Console.WriteLine(d);
 
 // Задача 23
 // Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
-Console.WriteLine("Введите число ");
- int num = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите число ");
+//  int num = Convert.ToInt32(Console.ReadLine());
 
- for (int i=1; i<=num; i++)
- {
-    Console.WriteLine(Math.Pow(i,3));
- }
+//  for (int i=1; i<=num; i++)
+//  {
+//     Console.WriteLine(Math.Pow(i,3));
+//  }
