@@ -2,30 +2,30 @@
 // 0, 7, 8, -2, -2 -> 2
 // 1, -7, 567, 89, 223-> 3
 
-// int Quality()
-// {
-// Console.WriteLine("Введите размер массива:");
-// int size = Convert.ToInt32(Console.ReadLine());
-// int [] array = new int [size];
-// Console.WriteLine("Размер массива = " + size);
-// int i = 0;
-// int col = 0;
+int Quality()
+{
+Console.WriteLine("Введите размер массива:");
+int size = Convert.ToInt32(Console.ReadLine());
+int [] array = new int [size];
+Console.WriteLine("Размер массива = " + size);
+int i = 0;
+int col = 0;
 
-//     for(i = 0; i < array.Length; i++)
-//     {
-//         array[i] = new Random().Next(-100, 101);
-//         Console.WriteLine(array[i]);
+    for(i = 0; i < array.Length; i++)
+    {
+        array[i] = new Random().Next(-100, 101);
+        Console.WriteLine(array[i]);
 
-//         if(array[i]> 0)
-//         {
-//             int count = 0;
-//             count++;
-//             col = col + count;
-//         }
-//     }
-//     return col;
-// } 
-//   Console.WriteLine("Чисел больше 0 = " + Quality());
+        if(array[i]> 0)
+        {
+            int count = 0;
+            count++;
+            col = col + count;
+        }
+    }
+    return col;
+} 
+  Console.WriteLine("Чисел больше 0 = " + Quality());
 
     
 // Задача 43: Напишите программу, которая найдёт точку пересечения двух прямых, 
